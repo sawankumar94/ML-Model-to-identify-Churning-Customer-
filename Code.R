@@ -9,9 +9,9 @@ library(caret)
 library(ROCR)
 library(e1071)
 library(rpart)
-setwd("C:/Users/Sawan/Desktop/Unifynd/fwdmlproblems")
+setwd("~/Churn_Model")
 
-churn <- read.csv('churn.csv')
+churn <- read.csv('Data.csv')
 
 head(churn)  #To have a look on the columns
 
